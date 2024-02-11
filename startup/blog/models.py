@@ -2,7 +2,7 @@ from django.db import models
 from django.utils import timezone
 from django.contrib.auth.models import User
 
-# Create your models here.
+
 class Post(models.Model): 
     title = models.CharField(max_length=100) # max_length is a required field
     content = models.TextField()  # TextField is a required field
