@@ -39,7 +39,7 @@ INSTALLED_APPS = [
     'django.contrib.staticfiles',
     'blog.apps.BlogConfig',
     'users.apps.UsersConfig',
-    'crispy_forms',
+    #'crispy_forms',
 
 ]
 
@@ -122,7 +122,7 @@ USE_TZ = True
 STATIC_URL = '/static/'
 
 #CRISPY_TEMPLATE_PACK = 'bootstrap4'
-CRISPY_TEMPLATE_PACK = 'bootstrap'
+#CRISPY_TEMPLATE_PACK = 'bootstrap'
 
 # Default primary key field type
 # https://docs.djangoproject.com/en/5.0/ref/settings/#default-auto-field
